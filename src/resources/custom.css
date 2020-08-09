@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 21, 2020, 10:05:29 PM
+    Author     : milton
+*/
+*{
+    -fx-primary:#2A2E37;
+    -fx-secondary:#EFF4EB;
+    -fx-primarytext:#e7e7e7;
+    -fx-red:#FF0000;
+    -fx-tab:#345678;
+}
+
+.root{
+    -fx-background-color:-fx-primary;
+}
+
+.text-field{
+    -fx-text-fill: -fx-primarytext;
+    -fx-font-size:13pt;
+}
+/* login button*/
+.login-button{
+    -fx-border-radius:20px;
+    -fx-border-color:#345678;
+    -fx-background-color: #345678;
+    -fx-background-radius: 20px;
+}
+.login-button:hover{
+    -fx-background-color: greenyellow;
+     -fx-border-color:greenyellow;
+     -fx-text-fill: #2A2E37;
+}
+/*common button*/
+.button{
+    -fx-border-radius:20px;
+    -fx-border-color:#345678;
+    -fx-background-color: #345678;
+    -fx-background-radius: 20px;
+    -fx-text-fill: #e7e7e7;
+}
+.button:hover{
+    -fx-background-color: greenyellow;
+     -fx-border-color:greenyellow;
+     -fx-text-fill: #2A2E37;
+}
+
+
+.wrong-credentials{
+    -jfx-unfocus-color:-fx-red;
+    -jfx-focus-color:-fx-red;
+}
+
+/*main  */
+
+/*tab pane */
+
+.tab{
+    -fx-background-color: #345678;
+    -fx-pref-width:250;
+    -fx-pref-height:20;
+}
+.tab-header-background{
+    -fx-background-color: #345678;
+}
+/*menu bar*/
+.menu-bar{
+    -fx-base:#345678;
+    -fx-background-color: #345678;
+}
+.context-menu{
+    -fx-background-color: derive(#345678,-100%);
+}
+
+
+/*hamburger */
+.jfx-hamburger-icon{
+    -fx-spacing: 7;
+    
+}
+.jfx-hamburger-icon StackPane{
+    -fx-background-color: greenyellow;
+    
+}
+
+
+/*toolbar */
+.toolbar-button
+{
+    -fx-background-color:#345678;
+   
+    
+}
+.toolbar-button:hover
+{
+    -fx-background-color: #F7FF84;
+     -fx-text-fill:black;
+}
+
+/*text*/
+.main-text
+{
+    -fx-fill: #EFF4EB;
+    -fx-font-size:12pt; 
+    -fx-text-alignment: center;
+    
+}
+/*main label*/
+.main-label
+{
+    -fx-fill: #EFF4EB;
+}
+.vbox
+{
+    -fx-background-color: derive(-fx-primary,10%);
+     -fx-spacing: 10;
+
+}
+
+.jfx-layout-actions{
+    -fx-hgap:8;
+}
+/*pie chart*/
+.data0.chart-pie{
+    -fx-pie-color: green;
+    -fx-border-color: derive(greenyellow,-30%);
+}
+.data1.chart-pie{
+    -fx-pie-color: blue;
+    -fx-border-color: derive(blueviolet,-30%);
+}
+.chart-pie-label{
+    -fx-fill: greenyellow;
+}
